@@ -1,0 +1,81 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environments and dependency directories
+pip-wheel-metadata/
+build/
+dist/
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+logs/
+
+# Model files and large artifacts
+models/
+*.h5
+*.pt
+*.pth
+*.joblib
+*.pkl
+
+# Data (raw and large intermediate files)
+data/
+data_raw/
+raw_data/
+processed_data/
+*.csv
+*.zip
+*.tar.gz
+
+# Results and plots
+results/
+reports/
+*.png
+*.svg
+
+# IDE config
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Python testing
+.pytest_cache/
+
+# dotenv / secrets
+.env
+.env.* 
+secrets.*
+credentials.json
+
+# Mac/Linux swap / temp files
+*~
+*.swp
+
+# Notebook outputs (if you want to keep notebooks but not outputs)
+**.ipynb_checkpoints
+*.nbconvert.ipynb
+
+# Coverage
+htmlcov/
+coverage.xml
+
+# Misc
+coverage/
